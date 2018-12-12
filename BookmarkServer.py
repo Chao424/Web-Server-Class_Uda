@@ -48,7 +48,7 @@ from urllib.parse import unquote, parse_qs
 import os
 # concurrecny sever
 import threading
-import socketserver import ThreadingMixIn
+from socketserver import ThreadingMixIn
 
 
 memory = {}
